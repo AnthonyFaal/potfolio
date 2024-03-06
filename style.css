@@ -1,64 +1,131 @@
 *{
+    line-height: 1.7;
     padding: 0;
-    margin: 5px;
+    margin: 0;
+}
+.navbar{
+    background-color: white;
 }
 
-body{
-    min-width: 100%;
-    height: 100vh;
-    background-color:black;
-    color: white;
+.navbar-brand{
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #666;
 }
-.logo{
-   font-size: xx-large;
-   font-weight: 900;
-   margin: 2px px 20px;
-   display: inline-block;
-   transition: 0.4s;
-   color: red;
+
+.nav-link{
+  font-weight: 700;
+  transition: 0.3s;
+  display: inline-block;
+}
+.nav-link:hover{
+    color: blue;
+    scale: 1.03; 
+    margin: -2px;
+  }
+  
+.body-container{
+    background-color:rgba(245, 245, 245, 0.8);
+}
+
+.Primary-heading{
+    padding-top: 200px;
+    text-align: center;
+    }
+
+  .name {
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 3rem;
+    letter-spacing: 3px;
+}
+
+.text-primary-1 {
+    color: #333;
+    font-size: 1.2rem;
+    text-align: center;
+    width: 100%;
+    line-height: 1.6;
+    
+}
+    
+.profile-picture {
+    max-width: 70px; 
+    border-radius: 50%; 
+    border: 3px solid #fff; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); 
 }
 
 
-#logo_style{
-    color: white;
+.skills{
+    display: flex;
+    flex-wrap: wrap;
 }
-.logo:hover{
-    scale: 1.02;
-    opacity: 0.9;
+
+.skill {
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    font-size: 1rem;
+    background: rgba(153, 153, 153, 0.2);
+    border-radius: 5px;
+    font-weight: 600;
+    color: #666;
 }
- 
-#profile{
-    height: 150px;
-    width:  150px;
-    border-radius: 75px;
+
+h2 {
+ text-align: center;
+ margin-bottom: 30px;
 }
-footer{
-    background-position: center;
+
+.description-about{
+    font-weight: bold;
+    color: black;
+    font-size: 1.5rem;
 }
-footer div button {
+
+.projects{
+   margin: 5px;
+    box-shadow: 10px 0px 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(250, 249, 247);
+    
+}
+
+.view{
+    text-align: center;
+    justify-content: center;
+}
+
+.submit{
+    text-align: center;
+    margin: 10px;
+}
+
+.contactinfo {
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    text-align: justify;
+}
+
+.contactinfo p {
+    text-align: left; 
+}
+
+
+.conect_social{
+    margin-top: 50px;
+    margin-bottom: 20px;
    
-    margin: 20px 5% 30px;
-    display: inline-block;
-    background-color: blue;
-    border: none;
-    height: 150px;
-    width: 250px;
-    border-radius: 10px;
-    transition: 0.15s;
 }
-footer div button a{
-    color: white;
-    text-decoration-line: none;
-    font-size: xx-large;
-    font-weight: bolder;
+
+.container1{
+    max-width: 95%;
 }
-footer div button:hover{
-    opacity: 0.5;
-}
-footer hr{
-    size: 1;
-    color: antiquewhite;
-}
-footer div{
-    margin: 0px 25% 0px;
+
+.row{
+    margin-top: 10px;
 }
