@@ -3,6 +3,7 @@
     padding: 0;
     margin: 0;
 }
+
 .navbar{
     background-color: white;
 }
@@ -23,7 +24,7 @@
 .nav-link:hover{
     color: blue;
     scale: 1.03; 
-    margin: -2px;
+   
   }
   
 .body-container{
@@ -38,7 +39,7 @@
   .name {
     text-transform: uppercase;
     font-weight: 800;
-    font-size: 3rem;
+    font-size: 1.6rem;
     letter-spacing: 3px;
 }
 
@@ -85,14 +86,6 @@ h2 {
     font-size: 1.5rem;
 }
 
-.projects{
-   margin: 5px;
-    box-shadow: 10px 0px 20px;
-    padding: 10px;
-    border-radius: 20px;
-    background-color: rgb(250, 249, 247);
-    
-}
 
 .view{
     text-align: center;
@@ -129,3 +122,35 @@ h2 {
 .row{
     margin-top: 10px;
 }
+/*.projects{
+   margin: 5px;
+    box-shadow: 10px 0px 20px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(250, 249, 247);
+    
+}*/
+
+.contact_form{
+    background-color: rgb(219, 217, 217);
+    padding: 50px;
+    border-radius: 30px;
+    max-width: 800px;
+    align-items: center;
+    justify-content: center;
+}
+
+.input{
+    margin-top: 20px;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+textarea{
+    min-height: 500px;
+}
+
+
+
