@@ -152,5 +152,6 @@ textarea{
     min-height: 500px;
 }
 
-
-
+footer div{
+    padding-top: 5px;
+}
