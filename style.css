@@ -155,3 +155,56 @@ textarea{
 footer div{
     padding-top: 5px;
 }
+
+
+  .view {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #007bff;
+    border: none;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view:hover {
+    background-color: #0056b3;
+  }
+
+  .project {
+    margin-bottom: 40px;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+  }
+  
+  .project-image img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .project-image-app img {
+    width: 300px;
+    height: auto;
+    object-fit: cover;
+  }
+  .project-details {
+    padding: 20px;
+  }
+  
+  .project-details h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .project-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+  }
+  
+  
