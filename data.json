@@ -1,0 +1,79 @@
+  {
+    "skills": ["HTML", "CSS", "JavaScript", "TypeScript", "React", "NodeJs", "Postgres", "Java", "Flutter", "GitHub", "Git", "MySQL", "Dart", "Django", "Firebase", "Responsive Design"],
+    
+        "projects": [
+          {
+            "title": "Highest Point Electrical Engineering Ltd",
+            "description": "A website for a prominent electrical company providing top-notch electrical solutions for residential, commercial, and industrial clients. The website showcases the company's services, portfolio, and contact information, allowing potential clients to learn more about the company and its offerings.",
+            "image": "./assets/projects/Highest_point.png",
+            "url": "https://www.highestpointelectrical.com",
+            "technologies": [
+                "React"
+            ]
+          },
+          {
+            "title": "Fashion Hub E-commerce",
+            "description": "An e-commerce website specializing in fashion products, including clothing, accessories, and footwear. The website offers a wide range of trendy and stylish products from an online API, providing users with a seamless shopping experience.",
+            "image": "./assets/projects/e_commerce.png",
+            "url": "https://e-commerce-chi-gray.vercel.app",
+            "loginDetails": {
+              "username": "johnd",
+              "password": "m38rmF$"
+            },
+            "technologies": [
+                "React"
+            ]
+          },
+          {
+            "title": "Smagritrade",
+            "description": "A farm management application that utilizes IoT (Internet of Things) technology and real-time Firebase database integration. The app helps farmers monitor and manage their farms more efficiently by providing real-time data on environmental conditions, crop health, and livestock status.",
+            "image": "./assets/projects/Farm_app.jpg",
+            "url": "https://github.com/AnthonyFaal/Smagritrade.git",
+            "technologies": [
+                "Flutter",
+                "Dart",
+                "Firebase"
+            ]
+          },
+          {
+            "title": "Todo List App",
+            "description": "A mobile application for creating and managing to-do lists, helping users stay organized and productive.",
+            "url": "https://github.com/AnthonyFaal/Todo.git",
+            "technologies": [
+                "Flutter",
+                "Dart"
+            ]
+          },
+          {
+            "title": "Family Pay",
+            "description": "An application for managing family monthly contributions, allowing users to add members and their corresponding monthly payments.",
+            "url": "https://github.com/AnthonyFaal/Family-Pay.git",
+            "technologies": [
+                "Flutter",
+                "Node.js",
+                "PostgreSQL"
+            ]
+          },
+         
+          {
+            "title": "Django Api Integration",
+            "description": "A backend API built with Django",
+            "ur": "https://github.com/AnthonyFaal/Django-web.git",
+            "technologies": [
+              "Django",
+              "Python",
+              "MySQL"
+            ]
+          },
+          {
+            "title": "Todo backend using fast API",
+            "description": "Backend APIs built using fast API",
+            "url": "https://github.com/AnthonyFaal/Todo-FastAPI-backend.git",
+            "technologies":[
+              "Python",
+              "Fast Api",
+              "SQLlite"
+            ]
+          }
+        ]
+      }

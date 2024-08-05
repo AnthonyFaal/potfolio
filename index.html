@@ -25,7 +25,7 @@
         <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
             <ul class="navbar-nav" style="font-size: large;">
               <li class="nav-item">
-                <a class="nav-link" href="/index.html">home</a>
+                <a class="nav-link" href="#">home</a>
            
               </li>
                 <li class="nav-item">
@@ -76,23 +76,7 @@
 
           <div class="col-md-6 ">
            <div class="description-about">My Skills</div> 
-           <ul class="skills">
-            <div class="skill">HTML</div>
-            <div class="skill">CSS</div>
-            <div class="skill">JavaScript</div>
-            <div class="skill">TypeScript</div>
-            <div class="skill">React</div>
-            <div class="skill">NodeJs</div>
-            <div class="skill">Postgres</div>
-            <div class="skill">Java</div>
-            <div class="skill">Flutter</div>
-            <div class="skill">GitHub</div>
-            <div class="skill">Git</div>
-            <div class="skill">MySQL</div>
-            <div class="skill">Dart</div>
-            <div class="skill">Django</div>
-            <div class="skill">Firebase</div>
-            <div class="skill">Responsive Design</div>
+           <ul class="skills" id="skills-list">
            </ul>
             
       </div>
@@ -101,124 +85,16 @@
 
 <section id="projects" class="py-5">
   <div class="container">
-    <h2>Projects</h2>
-
-   <!-- Project: Highest Point Electricals -->
-<div class="project">
-  <div class="row">
-    <div class="col-md-6">
-      <!-- Styled project image -->
-      <div class="project-image">
-        <img src="./assets/projects/Highest_point.png" alt="Highest Point Electricals">
-      </div>
-    </div>
-    <div class="col-md-6">
-      <!-- Project details -->
-      <div class="project-details">
-        <h3>Highest Point Electrical Engineering Ltd</h3>
-        <p>A website for a prominent electrical company providing top-notch electrical solutions for residential, commercial, and industrial clients.</p>
-        <p>The website showcases the company's services, portfolio, and contact information, allowing potential clients to learn more about the company and its offerings.</p>
-        <!-- View button -->
-        <a href="https://highest-point-electricals.vercel.app" class="btn btn-primary view" target="_blank">View Website</a>
-      </div>
-    </div>
-  </div>
-</div>
- 
-<!-- Project: Fashion E-commerce -->
-<div class="project">
-  <div class="row">
-    <div class="col-md-6">
-      <!-- Styled project image -->
-      <div class="project-image">
-        <img src="./assets/projects/e_commerce.png" alt="Fashion E-commerce">
-      </div>
-    </div>
-    <div class="col-md-6">
-      <!-- Project details -->
-      <div class="project-details">
-        <h3>Fashion Hub E-commerce</h3>
-        <p>An e-commerce website specializing in fashion products, including clothing, accessories, and footwear.</p>
-        <p>The website offers a wide range of trendy and stylish products from an online API, providing users with a seamless shopping experience.</p>
-        <h6>Login details</h6>
-        <div>User Name: johnd</div>
-        <div>Password: m38rmF$ </div>
-        <!-- View button -->
-        <a href="https://e-commerce-chi-gray.vercel.app" class="btn btn-primary view" target="_blank">View Site</a>
-      </div>
-    </div>
-  </div>
-</div>
->
-
-<!-- Farm app -->
-<div class="project">
-  <div class="row">
-    <div class="col-md-6">
-      <!-- Styled project image -->
-      <div class="project-image-app">
-        <img src="./assets/projects/Farm_app.jpg" alt="Farm App">
-      </div>
-    </div>
-    <div class="col-md-6">
-      <!-- Project details -->
-      <div class="project-details">
-        <h3>Smagritrade</h3>
-        <p>A farm management application that utilizes IoT (Internet of Things) technology and real-time Firebase database integration.</p>
-        <p>The app helps farmers monitor and manage their farms more efficiently by providing real-time data on environmental conditions, crop health, and livestock status.</p>
-        <a href="project2-details.html" class="btn btn-primary view" target="_blank">View Project</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Todo List App -->
-<div class="project">
-  <div class="row">
-    <div class="col-md-6">
-      <!-- Styled project image (if available) -->
-    </div>
-    <div class="col-md-6">
-      <!-- Project details -->
-      <div class="project-details">
-        <h3>Todo List App</h3>
-        <p>A mobile application for creating and managing to-do lists, helping users stay organized and productive.</p>
-        <a href="project3-details.html" class="btn btn-primary view" target="_blank">View Details</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Family Contribution App -->
-<div class="project">
-  <div class="row">
-    <div class="col-md-6">
-      <!-- Styled project image (if available) -->
-    </div>
-    <div class="col-md-6">
-      <!-- Project details -->
-      <div class="project-details">
-        <h3>Family Pay</h3>
-        <p>An application for managing family monthly contributions, allowing users to add members and their corresponding monthly payments.</p>
-        <a href="https://github.com/AnthonyFaal/Family-Pay.git">View Details</a>
-      </div>
-    </div>
-  </div>
-</div>
-
-    
-
-
+    <h2>My Projects</h2>
+    <div id="projects-list"></div>
 </section>
-
-
-  
+ 
 <!-- Resume Section -->
 <section id="resume" class="py-5">
   <div class="container">
       <h2>Resume</h2>
       <p>You can download my resume to learn more about my qualifications and work experience.</p>
-      <a href="/assets/resume/resume.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer" download>Download Resume</a>
+      <a href="/assets/resume/Faal_CV.pdf" class="btn btn-primary" target="_blank" rel="noopener noreferrer" download>Download Resume</a>
   </div>
 </section>
 
@@ -248,42 +124,57 @@
     </div>
   </div>
 </section>
-
 </div>
 
 <!-- Footer -->
-<footer class="footer bg-dark text-white">
+<!-- Footer -->
+<footer class="footer bg-dark text-white py-4">
   <div class="container">
     <div class="row">
-      
-      <div class="col-md-6">
-        <h5>Connect on</h5>
-        <ul class="row list-unstyled">
-          <li><a href="https://www.linkedin.com/in/faal-anthony-aa8067233"><i class="fab fa-facebook"></i>
-             <img src="assets/icons8-linkedin-48.png" alt="LinkedIn"></a>
-            </li>
-          <li ><a href="https://github.com/AnthonyFaal"><i class="fab fa-twitter"></i>
-            <img src="assets/icons8-github-48.png" alt="GitHub"></a></li>
-  
+      <!-- Social Media Links -->
+      <div class="col-md-4 mb-3">
+        <h5>Connect with Me</h5>
+        <ul class="list-unstyled d-flex">
+          <li class="mr-3">
+            <a href="https://www.linkedin.com/in/faal-anthony-aa8067233" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons8-linkedin-48.png" alt="LinkedIn" class="social-icon">
+            </a>
+          </li>
+          <li class="mr-3">
+            <a href="https://github.com/AnthonyFaal" target="_blank" rel="noopener noreferrer">
+              <img src="assets/icons8-github-48.png" alt="GitHub" class="social-icon">
+            </a>
+          </li>
+        
         </ul>
       </div>
-      <div class="col-md-6">
+      <!-- Contact Information -->
+      <div class="col-md-4 mb-3">
         <h5>Contact</h5>
         <ul class="list-unstyled">
-          <li><i class="fas fa-map-marker-alt"></i> Accra, Ghana</li>
-          <li><i class="fas fa-envelope"></i> nyongfaalanthony@gmail.com</li>
-          <li><i class="fas fa-phone"></i> +233 209040199/ +233 509894290</li>
+          <li><i class="fas fa-map-marker-alt mr-2"></i>Accra, Ghana</li>
+          <li><i class="fas fa-envelope mr-2"></i>nyongfaalanthony@gmail.com</li>
+          <li><i class="fas fa-phone mr-2"></i>+233 209040199 / +233 0256623776</li>
         </ul>
+      </div>
+      <!-- Brief Bio or Mission Statement -->
+      <div class="col-md-4 mb-3">
+        <h5>About Me</h5>
+        <p>I am a passionate Full Stack Developer specializing in mobile and web development, dedicated to creating innovative and efficient solutions. Let's connect and collaborate on exciting projects!</p>
+      </div>
+    </div>
+    <div class="row mt-3">
+      <div class="col-12 text-center">
+        <p class="mb-0">&copy; 2024 Nyong Faal Anthony. All Rights Reserved.</p>
       </div>
     </div>
   </div>
 </footer>
-</div>
 
-<!-- JavaScript -->
+</div>
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-<script src="js/script.js"></script>
+<script src="script.js"></script>
 </body>
 </html>
